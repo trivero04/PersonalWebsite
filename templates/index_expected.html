@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Personal Portfolio | Tzetzaith Rivero</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="particles"></div>
+        <div class="info-text">
+            <h1>Personal Portfolio</h1>
+            <h3>Tzetzaith Rivero</h3>
+            <a href="#about" class="scroll"><i class='bx bxs-down-arrow'></i></a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="header">
+            <h1>About Me</h1>
+        </div>
+
+        <div class="card">
+            <img class="rounded-image" src="{{ url_for('static', filename='assets/logo.jpg') }}">
+            <div class="info">
+                <h1>Tzetzaith Rivero</h1>
+                <p>
+                    Education
+<br>🎓 Pursuing a Bachelor of Science in Computer Science with a Minor in Math from The University of Texas at El Paso (UTEP), expected graduation in 2026. Maintained a commendable GPA of 3.88/4.00.
+
+<br>Languages
+<br>🌍 Fluent in four languages: Native in Spanish, proficient in English, and has basic knowledge of French and Korean.
+
+<br>Skills
+<br>🔧 Proficient in Python and Java.
+                    JavaScript, HTML and CSS knowledgeable.
+
+<br>Experience & Personal Projects
+<br>🌐 Started a personal webpage in Python usgin Flask framework and HTML, JavaScript and CSS languages.
+
+ <br>Leadership Roles
+                    <br>🏆 Part of the Lopez Scholars, one of the most distinguished scholarships at UTEP.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+    <div class="header">
+        <h1>Features</h1>
+    </div>
+    <div class="feature-cards">
+        <a href="https://example1.com" class="card-link">
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-vector'></i>
+                    <h1>Technical Proficiency</h1>
+                    <p>
+                        Cultivating a deep interest in Cybersecurity, my focus leans towards mastering Defensive OS Systems and Penetration Testing. My aim is to bolster security frameworks and ensure robust defense mechanisms, contributing to the safeguarding of digital landscapes and fortifying infrastructures against potential threats.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/trivero04" class="card-link">
+    <div class="card">
+        <div class="info">
+            <i class='bx bx-code-alt'></i>
+            <h1>Explore my Projects</h1>
+            <p>
+                Dive into my collection of projects to see my hands-on experience and technical skills in action.
+                Each one showcases my approach to problem-solving and innovation in computer science. Feel free to explore and learn more.
+            </p>
+        </div>
+    </div>
+</a>
+
+        <a href="https://example3.com" class="card-link">
+            <div class="card">
+                <div class="info">
+                    <i class='bx bxs-component'></i>
+                    <h1>Leadership</h1>
+                    <p>
+                        As a Lopez Scholar at UTEP, my leadership and academic excellence shine. This honor underscores my commitment to community engagement and innovation, fostering connections and impact within and beyond the university.
+                    </p>
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+
+
+    <button class="scroll-top" onclick="scrollToTop()">
+        <i class='bx bxs-up-arrow'></i>
+    </button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
