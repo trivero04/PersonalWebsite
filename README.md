@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is the personal portfolio website for Tzetzaith Rivero. The website is created using HTML, and it showcases Joel's background, skills, experiences, and projects. 
+This is the personal portfolio website for Tzetzaith Rivero. The website is created using HTML, and it showcases Tzetzaith's background, skills, experiences, and projects. 
 
 ## Features
 
