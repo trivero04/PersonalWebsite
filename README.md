@@ -47,11 +47,6 @@ To set up the portfolio website for local development:
     flask run
     ```
 
-## Acknowledgements
-
-- Boxicons for providing the icon set used in the website.
-- particles.js library for the interactive particle background in the header.
-
 ## Contact
 
 For more information, contact Tzetzaith Rivero at [trivero2@miners.utep.edu].
