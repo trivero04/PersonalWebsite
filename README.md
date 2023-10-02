@@ -2,11 +2,11 @@
 
 ## Overview
 
-This is the personal portfolio website for Joel Martinez. The website is created using HTML, and it showcases Joel's background, skills, experiences, and projects. 
+This is the personal portfolio website for Tzetzaith Rivero. The website is created using HTML, and it showcases Joel's background, skills, experiences, and projects. 
 
 ## Features
 
-- **About Me Section**: Offers insight into Joel's educational background, skills, languages spoken, experiences, and various roles and contributions in projects and communities.
+- **About Me Section**: Offers insight into Tzetzaith's educational background, skills, languages spoken, experiences, and various roles and contributions in projects and communities.
 - **Features Section**: Highlights key aspects such as Technical Proficiency, Project Exploration, and Leadership & Engagement.
 - **Interactive Scroll and Navigation**: Smooth scroll and easy navigation throughout the webpage for a seamless user experience.
   
@@ -54,4 +54,4 @@ To set up the portfolio website for local development:
 
 ## Contact
 
-For more information, contact Joel Martinez at [mjoel4318@gmail.com].
+For more information, contact Tzetzaith Rivero at [trivero2@miners.utep.edu].
